@@ -44,11 +44,11 @@ typedef struct {
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-#define THRESHOLD            1500  // Activation threshold for muscle contraction
-#define IDLE                 600   // Noise floor / resting muscle state
-#define DOUBLE_FLEXTIMEOUT   400   // Max MS delay to register a double fist vs single fist
+#define THRESHOLD            250
+#define IDLE                 30
+#define DOUBLE_FLEXTIMEOUT   400   
 #define RMS_WINDOW           200
-#define BUFFER_SIZE          120   // DMA Buffer for 3 Channels
+#define BUFFER_SIZE          120
 
 /* USER CODE END PD */
 
