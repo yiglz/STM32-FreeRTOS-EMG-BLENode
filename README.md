@@ -32,6 +32,13 @@ To save energy, the system defaults to a **deep hardware sleep mode**.
 
 ---
 
+## Electrode Placement
+
+* **Channel 1 (Flexor Group - Wrist In):** Place the active differential electrodes over the **Flexor Carpi Radialis** (inner forearm).
+* **Channel 2 (Extensor Group - Wrist Out):** Place the active differential electrodes over the **Extensor Digitorum** or **Extensor Carpi Radialis** (outer forearm).
+* **RLD Reference:** The Right Leg Drive (Reference) electrode must be placed on an electrically neutral area with minimal underlying muscle activity. The **elbow** or the **wrist bone** are the optimal targets.
+
+
 ## This Repository Contains
 * **Firmware (`Core/` & `STM32_WPAN/`)
 * **`.ioc` File
